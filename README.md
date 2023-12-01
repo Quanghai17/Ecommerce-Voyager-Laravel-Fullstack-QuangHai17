@@ -27,7 +27,7 @@
 
 -   Home Page
 
-![App UI](/ui.png)
+![App UI](/ui1.png)
 
 -   Shopping Page
 
