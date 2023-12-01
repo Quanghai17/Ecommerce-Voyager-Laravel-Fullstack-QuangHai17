@@ -1,0 +1,30 @@
+.list-custom ul li::before,
+.icon_custom>p::before {
+  content: "\e64c";
+  font-family: 'themify';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.list-custom ul li::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: #264257;
+}
+
+.input1_inner.input_name::after {
+  content: "\e602";
+}
+
+.input1_inner.input_phone::after {
+  content: "\e621";
+}
