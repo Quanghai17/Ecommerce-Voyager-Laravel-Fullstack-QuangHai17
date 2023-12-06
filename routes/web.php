@@ -61,6 +61,9 @@ Auth::routes();
 Route::get('/login/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('/login/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
 
+//payment
+Route::post('/momo_payment', 'PaymentController@momo_payment')->name('momo_payment');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'admin'], function () {
